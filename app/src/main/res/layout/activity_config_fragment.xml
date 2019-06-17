@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.ConfigFragment">
+
+
+    <TextView
+        android:id="@+id/meuPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="30dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_person_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Meu Perfil"
+        android:clickable="true"
+        android:onClick="meuPerfil"/>
+
+    <TextView
+        android:id="@+id/notificacoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_notifications_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Notificações"
+        android:clickable="true"
+        android:onClick="notificacoes"/>
+
+    <TextView
+        android:id="@+id/perguntasFrequentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_help_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Perguntas Frequentes"
+        android:clickable="true"
+        android:onClick="perguntasFrequentes"/>
+
+    <TextView
+        android:id="@+id/faleConosco"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_chat_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Fale Conosco"
+        android:clickable="true"
+        android:onClick="faleConosco"/>
+
+    <TextView
+        android:id="@+id/termosUso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_paste_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Termos de Uso"
+        android:clickable="true"
+        android:onClick="termosUso"/>
+
+    <TextView
+        android:id="@+id/sair"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorTextBlack"
+        android:textSize="25sp"
+        android:drawableLeft="@drawable/ic_exit_black_24dp"
+        android:background="@drawable/caixa_texto_borda"
+        android:text=" Sair"
+        android:clickable="true"
+        android:onClick="sair"/>
+
+
+</LinearLayout>
