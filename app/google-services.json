@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "628829565068",
+    "firebase_url": "https://ipets-8c74d.firebaseio.com",
+    "project_id": "ipets-8c74d",
+    "storage_bucket": "ipets-8c74d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:628829565068:android:557e3a01b51c3991",
+        "android_client_info": {
+          "package_name": "com.pacote.ipets"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "628829565068-4nm1pbd15jgqps1b5vbplq1o2pjvcih9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pacote.ipets",
+            "certificate_hash": "371af5d9618373fd26b49275e62f78846280250c"
+          }
+        },
+        {
+          "client_id": "628829565068-3ah9t9vgm9sr0jto5lca9m96b5ocb00m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW-kp6uSQHHuQrZ1mWYYToOHxOJlcHH-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "628829565068-3ah9t9vgm9sr0jto5lca9m96b5ocb00m.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

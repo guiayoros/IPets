@@ -43,6 +43,8 @@ dependencies {
     //CircleImageView
     implementation 'de.hdodenhof:circleimageview:3.0.0'
 
+    implementation  'com.squareup.retrofit2:retrofit:2.6.0'
+
     implementation 'com.squareup.retrofit2:converter-gson:2.6.0'
 
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databinds
