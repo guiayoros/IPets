@@ -4,8 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:background="@color/colorPrimary"
-    android:orientation="horizontal">
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
 
     <ImageView
         android:id="@+id/imageProduto"
@@ -20,45 +29,65 @@
         android:layout_weight="0"
         android:orientation="vertical">
 
-        <TextView
-            android:id="@+id/nomeAnimal"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:layout_marginLeft="10dp"
-            android:text="Nome do animal "
-            android:textColor="#000000"
-            android:textSize="18sp" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/nomeAnimal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:text="Nome do animal "
+                android:textColor="#000000"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/raca"
-                android:layout_width="match_parent"
+            <LinearLayout
+                android:layout_width="150dp"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:paddingTop="20dp"
-                android:paddingBottom="0dp"
-                android:text="Raça"
-                android:textColor="#000000"
-                android:textSize="13sp" />
-            <TextView
-                android:id="@+id/animalId"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/raca"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="Raça"
+                    android:textColor="#000000"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
-                android:text="id"
-                android:textColor="#000000" />
+                android:layout_height="match_parent"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/animalPorte"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Porte"
+                    android:textColor="#000000" />
+            </LinearLayout>
 
 
         </LinearLayout>
 
-        <include layout="@layout/divisor" />
-
 
     </LinearLayout>
-
+    </LinearLayout>
+        <include layout="@layout/divisor" />
+    </LinearLayout>
 
 </LinearLayout>

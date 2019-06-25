@@ -38,7 +38,7 @@ public class AdapterAnimal extends RecyclerView.Adapter<AdapterAnimal.MyViewHold
         Animal animal = animals.get(position);
         holder.nome.setText(animal.getNome());
         holder.raca.setText(animal.getRaca());
-        holder.idAnimal.setText(animal.getPorte());
+        holder.porteAnimal.setText(animal.getPorte());
 
 
     }
@@ -56,8 +56,8 @@ public class AdapterAnimal extends RecyclerView.Adapter<AdapterAnimal.MyViewHold
 
         TextView nome;
         TextView raca;
-        TextView idAnimal;
-        ;
+        TextView porteAnimal;
+
 
 
         public MyViewHolder(View itemView) {
@@ -65,7 +65,7 @@ public class AdapterAnimal extends RecyclerView.Adapter<AdapterAnimal.MyViewHold
 
             nome = itemView.findViewById(R.id.nomeAnimal);
             raca = itemView.findViewById(R.id.raca);
-            idAnimal = itemView.findViewById(R.id.animalId);
+            porteAnimal = itemView.findViewById(R.id.animalPorte);
         }
     }
 }
